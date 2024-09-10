@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Classes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="photos/logo1.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="code.html">CODE COMPILER</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+         <h1>Our Courses</h1>
+    </section>
+
+
+
+
+   <!---------course page----------->
+
+    <section class="features" id="features">
+  
+        <div class="box-container">
+  
+          <div class="box-init" data-aos="fade">
+            <img src="photos/web development.avif" alt="" data-aos="fade" class="aos-init">
+            <h3>Web Development </h3>
+            <p>Welcome to our comprehensive web development course, designed to equip you with the skills and knowledge to create stunning websites in the dynamic online world.Join us on this exciting journey as we explore the ever-evolving landscape of web development.</p>
+            <a href="https://forms.gle/TLsGmvzVVEXCYYv2A" class=" subtitle subtitle2">Apply Now</a>
+          </div>
+  
+          <div class="box-init" data-aos="fade">
+            <img src="photos/graphical design.jpeg" alt="" data-aos="fade" class="aos-init">
+            <h3>Graphic Design </h3>
+            <p> 
+              Welcome to our Graphic Design course, a dynamic online learning experience that will unleash your creativity and transform you into a skilled visual communicator. join us now and unlock your full potential as a graphic designer in the digital age.</p>
+            <a href="https://forms.gle/TLsGmvzVVEXCYYv2A" class=" subtitle subtitle2">Apply Now</a>
+          </div>
+  
+          <div class="box-init" data-aos="fade">
+            <img src="photos/sql1.jpeg" alt="" data-aos="fade" class="aos-init">
+            <h3>SQL</h3>
+            <p>Welcome to our comprehensive SQL course, where you'll embark on a journey to become a master of data manipulation and management. In today's data-driven world, SQL is a fundamental skill for anyone working with databases and data analysis. </p>
+            <a href="https://forms.gle/TLsGmvzVVEXCYYv2A" class=" subtitle subtitle2">Apply Now</a>
+          </div>
+        </div>
+  
+        <div class="box-container">
+  
+          <div class="box-init" data-aos="fade">
+           
+              <img src="photos/android.png" alt="" data-aos="fade" class="aos-init">
+              <h3>Android Development</h3>
+              <p>Welcome to our Android Development course, a comprehensive online program that will empower you to create cutting-edge mobile applications.Join us now and embark on a transformative journey to become a skilled Android developer, ready to bring your app ideas to life in the dynamic mobile market.</p>
+              <a href="https://forms.gle/TLsGmvzVVEXCYYv2A" class=" subtitle subtitle2">Apply Now</a>
+            </div>
+    
+            <div class="box-init" data-aos="fade">
+              <img src="photos/data science.png" alt="" data-aos="fade" class="aos-init">
+              <h3>Data Science </h3>
+              <p>Welcome to our Data Science course, an immersive online program that will equip you with the skills and knowledge to extract valuable insights from complex data sets. In today's data-driven world, the ability to analyze and interpret data is in high demand across industries.</p>
+              <a href="https://forms.gle/TLsGmvzVVEXCYYv2A" class=" subtitle subtitle2">Apply Now</a>
+            </div>
+            <div class="box-init" data-aos="fade">
+              <img src="photos/cloud computing.jpeg" alt="" data-aos="fade" class="aos-init">
+              <h3>Cloud Computing</h3>
+              <p>Welcome to our Cloud Computing course, an online program designed to equip you with the knowledge and skills to harness the power of the cloud. In today's digital era, cloud computing has revolutionized the way organizations store, process, and manage their data.</p>
+              <a href="#" class=" subtitle subtitle2">Coming Soon</a>
+          
+        </div>
+        </div>
+  
+      </section>
+
+
+
+
+
+
+
+
+
+      <!--------footer------->
+      <section class="footer">
+        <h3>About Us</h3>
+        <p>Welcome to our online platform, your one-stop destination for needs.<br>
+         At Best Coaching Classes, we are passionate about dedicated to providing you with the highest quality content,resources, and services.</p>
+        
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+         <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+        </section>
+
+
+
+<!-----------Javascripts for toggle menu------->
+<script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu() {
+        navLinks.style.right = "0";    
+     }
+     function hideMenu() {
+        navLinks.style.right = "-200px";    
+     }
+</script>
+
+
+
+
+</body>
+</html>
